@@ -4,6 +4,7 @@ Espacio DevJump es un sitio para que los miembros de DevJump en Arbusta puedan a
 la idea viene de los mismos DevJumpers en busca de hacer más facil el camino para las proximas camadas.
 
 La página va a contener todo el contenido de un DevJumper desde el comienzo en los cursos de html hasta las especialidades de front o back end.
+
 Al ser un sitio vinculado a Arbusta vamos a mantener una paleta de colores similar que vamos a detallar a continuacion:
 
 - ![#28006B](https://via.placeholder.com/15/28006B/000000?text=+) `#28006B`
