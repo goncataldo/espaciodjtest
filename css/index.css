@@ -118,20 +118,7 @@
     flex-grow: 1;
     justify-content: center;
 }
-.htmlbox {
-    color: white;
-    font-size: 45px;
-    border: #242424;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 25px;
-    font-family: "helvetica";
-    background: linear-gradient(267deg, rgba(114,35,165,1) 11%, rgba(0,0,0,1) 100%);
-    display: flex;
-    margin: 50px;
-    padding: 100px;
-    align-items: center;
-}
+
 
 .texto {
     
@@ -171,6 +158,22 @@ height: 2px;
     justify-content: center;
     flex-direction: row-reverse;
 }
+.htmlbox {
+    color: white;
+    font-size: 45px;
+    border: #242424;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    font-family: "helvetica";
+    background: linear-gradient(267deg, rgba(114,35,165,1) 11%, rgba(0,0,0,1) 100%);
+    display: flex;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
 .cssbox {
     color: white;
     font-size: 45px;
@@ -182,8 +185,10 @@ height: 2px;
     background: linear-gradient(90deg, rgba(26,206,188,1) 18%, rgba(0,0,0,1) 91%);
     display: flex;
     margin: 50px;
-    padding: 100px;
+    width: 200px;
+    height: 200px;
     align-items: center;
+    justify-content: center;
 }
 .jsbox {
     color: white;
@@ -196,9 +201,10 @@ height: 2px;
     background: linear-gradient(90deg, rgba(0,0,0,1) 12%, rgba(40,0,107,1) 100%);
     display: flex;
     margin: 50px;
-    padding: 100px;
+    width: 200px;
+    height: 200px;
     align-items: center;
-
+    justify-content: center;
 }
 .a{
     height: 30px;
