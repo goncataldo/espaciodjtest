@@ -18,6 +18,16 @@ Al ser un sitio vinculado a Arbusta vamos a mantener una paleta de colores simil
 - ![#28006B](https://via.placeholder.com/15/28006B/000000?text=+) `#28006B`
 - ![#606060](https://via.placeholder.com/15/606060/000000?text=+) `#606060`
 
+Las fuentes que usamos son estas:
+
+- Rubik
+- Helvetica
+
+Las páginas en las que nos inspiramos son las siguientes:
+- https://www.digitalhouse.com/ (El diseño de bloques para mostrar información)
+- https://www.udemy.com/ (La estructura de los cursos)
+- https://arbusta.net/ (Paleta de colores, diseño del footer)
+
 El sitio va a comenzar con 4 secciones:
 - Index/Home
 - HTML
