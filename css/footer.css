@@ -111,10 +111,6 @@ footer .containerFooter .copyRight p{
         border-right: 1px solid #fff;
         margin-top: 20px;
     }
-    footer .containerFooter .redes .contenidoRedes a{
-        /* position: relative;
-        ; */
-    }
     footer .containerFooter .redes a:hover{
         color: rgb(102, 102, 102);
     }
