@@ -1,35 +1,82 @@
 # espaciodevjump
+19/09
+Ideas y planteos sobre el boceto.
 
-Espacio DevJump es un sitio para que los miembros de DevJump en Arbusta puedan acceder a material teorico, practico, clases, y mucho más,
-la idea viene de los mismos DevJumpers en busca de hacer más facil el camino para las proximas camadas.
+Gonza
+Henry los cursos que figuran en la parte superior.
 
-La página va a contener todo el contenido de un DevJumper desde el comienzo en los cursos de html hasta las especialidades de front o back end.
-Al ser un sitio vinculado a Arbusta vamos a mantener una paleta de colores similar que vamos a detallar a continuacion:
+Maxi
+Henry, le gusto la funcionalidad. Implementar el modo oscuro de arbusta. Parecido a digital house.
 
-- ![#28006B](https://via.placeholder.com/15/28006B/000000?text=+) `#28006B`
-- ![#54595F](https://via.placeholder.com/15/54595F/000000?text=+) `#54595F`
-- ![#7A7A7A](https://via.placeholder.com/15/7A7A7A/000000?text=+) `#7A7A7A`
-- ![#6D348A](https://via.placeholder.com/15/6D348A/000000?text=+) `#6D348A`
-- ![#DB69C1](https://via.placeholder.com/15/DB69C1/000000?text=+) `#DB69C1`
-- 
-- ![#61CE70](https://via.placeholder.com/15/61CE70/000000?text=+) `#61CE70`
-- ![#1ACEBC](https://via.placeholder.com/15/1ACEBC/000000?text=+) `#1ACEBC`
-- ![#1ACEBC](https://via.placeholder.com/15/1ACEBC/000000?text=+) `#6AE0C0`
-- ![#28006B](https://via.placeholder.com/15/28006B/000000?text=+) `#28006B`
-- ![#606060](https://via.placeholder.com/15/606060/000000?text=+) `#606060`
+Cris
+Barra y colores, le gusta el modo oscuro. Oscuro la temática de Arbusta. Accesible…. en el home una ruta de los cursos. Carril pap(buscar). 
+Home aside temas relacionados, consejos…. 
+Relacionados… temas relacionados a la temática. 
 
-El sitio va a comenzar con 4 secciones:
-- Index/Home
-- HTML
-- CSS
-- JavaScript
+Nombre: 
+Algo que tenga "DevJump" ya que queremos que sea una página para devjumpers.
 
-Index va a contener un resumen del sitio junto con un roadmap sobre la carrera de desarrollador en DevJump, este comienza con una imagen y un mensaje de bienvenida, al bajar vamos a presentar información en bloques, comenzando por un breve resumen de la carrera y a continuacion los diferentes lenguajes y tecnologias que se van a ver en la carrera junto con una descripcion de los mismos.
+Tener en cuenta el taller de agilidad, la dinámica del aeropuerto, comenzar con cosas que den más valor y con la minima expresion.
 
-En la seccion de html, css y js va a estar todo el contenido y clases de esos lenguajes, va a contener videos y una documentación que se va a poder descargar. Esto se va a poder llevar a cabo gracias a un menu que va a estar situado todo el tiempo en la parte derecha de la pantalla mostrando todas las clases y remarcando en la que estes situado.
 
-En cuanto al header y footer estos se van a mantener en todas las secciones de la página.
+20/04
+Bocetos:
 
-El header va a contener un logo de Arbusta que va a dirigir hacia la pagina de arbusta, el logo de Espacio DevJump, un buscador y un navegador desplegable para poder ir rapidamente hacia otras secciones de la página. El header va a tener una estetica oscura y los puntos que resalten van a ser los logos y el navegador desplegable que van a tener un violeta/rosa para dar contraste al sitio.
+Encaramos el proyecto de una manera en la que sea un sitio para DevJumpers de todo tipo (recien ingresados, avanzados o graduados) y para los profesores. En donde puedan ingresar y ver todo el recorrido devjump junto con sus clases, capacitaciones, talleres e informacion de la empresa y sus valores.
 
-El footer va a tener las redes sociales de Arbusta, links a las secciones de la página e informacion de contacto. Este va a tener una estetica oscura como la del header y tambien aprovechando los detalles de color violeta/rosa/blanco para dar contraste.
+
+Vamos a comenzar con una página simple buscando la minima expresion de pagina de cursos y comenzando por los 3 cursos que vimos hasta ahora (html, css, js).
+
+Cada uno hizo un boceto por su cuenta y luego los mostramos y vemos que ideas podemos sacar de cada boceto para hacer uno solo con las mejores cosas.
+Luego empezamos a probar la paleta de arbusta en nuestro boceto.
+
+
+Cris (Diagram): La pagina de cursos con un aside y un formulario para ejercitar. Extra(Una seccion donde enseñar a cargar horas a odoo o los videos de capacitaciones arbusta)
+
+Kevin (Figma): Un index con menu desplegable y tarjetas para ingresar a los cursos, un nav simple sin muchos botones a la vista, Seccion de cursos con las clases en listas desplegables con todo el contenido adentro del desplegable y un checkbox al lado de cada clase. Y con los archivos de documentacion listos para descargar y visualizar.
+
+Maxi (Diagram): pequeño logo de arbusta que lleve al index de arbusta en el nav. Barra de progreso (necesita usuario, log in) abajo de los cursos y menu desplegable a un costado con los cursos o clases.
+
+Queremos hacer una página escalable donde se puedan llegar a ver más a detalle las tecnologias de front y back, los talleres que vimos en nuestro recorrido, el staff que maneja devjump(profesores, so, rrhh, etc), guias sobre los valores de arbusta, etc.
+
+Cuando se abra el menu despegable del nav, queremos que el resto de la pagina se ponga oscura
+
+Terminamos el dia con un index casi terminado, falta ver los bloques del index y las otras secciones de html, css y js.
+
+21/4
+Los bloques van a ocupar un 40% de la pantalla del usuario
+Hicimos dos versiones, una con más variedad de colores en la paleta de arbusta y otra con colores más sobrios y oscuros.
+Ya completamos el boceto del index junto con las ideas para el responsive.
+Nombres para el sitio: 
+-programaDevJump
+-codigoDevJump
+-plataformaDevJump
+-espacioDevJump
+
+Terminamos eligiendo Espacio DevJump.
+
+Comenzamos con las secciones de los cursos, vamos a hacer una estructura inspirada en udemy con las clases en un costado y el material, los videos y la documentacion en cascada.
+
+El header y footer se repite en todas las secciones, el header tiene su nav en un menu desplegable a la derecha.
+La página va a ser toda en un tema oscuro ya que es un sitio en el que vamos a estar mucho tiempo viendo videos, leyendo material, etc. Y si usamos un fondo blanco o colores muy claros al usuario le va a molestar.
+
+Cristian se postuló para hacer el logo del sitio que va a estar situado en el medio del header. Hoy tuvo su operacion asi que esperemos que mañana pueda comenzar a hacerlo de a poco.
+
+22/04
+Tuvimos la reunion con los clientes y les gustó la idea del proyecto. Terminamos de decidir ciertos detalles y subimos el wireframe al repositorio.
+
+25/04
+Repartimos las tareas para hacer el index:
+Maxi va a hacer el header junto con el navegador desplegable.
+Kevin va a hacer el footer.
+Gonzalo va a hacer el roadmap de html/css/js
+Cristian va a hacer la parte de bienvenida.
+
+26/04
+Empezamos a codear y avanzamos bastante.
+
+27/04 
+Arreglamos algunos problemas con el responsive y terminamos detalles.
+
+28/04
+Subimos cada uno su parte del index y los juntamos en un solo archivo al repositorio.
